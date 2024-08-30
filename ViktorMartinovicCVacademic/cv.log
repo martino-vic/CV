@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.8.23)  30 AUG 2024 18:22
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.8.23)  30 AUG 2024 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,7 +1042,18 @@ LaTeX Font Info:    No file T3SourceSansPro(1).fd. on input line 44.
 LaTeX Font Warning: Font shape `T3/SourceSansPro(1)/m/it' undefined
 (Font)              using `T3/cmr/m/n' instead on input line 44.
 
-) (./cv/references.tex)
+) (./cv/references.tex
+! Misplaced alignment tab character &.
+l.2 \entrytitlestyle{benjamin.roth@univie.ac.at}&
+                                                 \descriptionstyle{Thesis-Me...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 1--86
 
  []
@@ -1078,7 +1089,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  32651 strings out of 479819
  638384 string characters out of 5895846
- 1064450 words of memory out of 5000000
+ 1063435 words of memory out of 5000000
  49177 multiletter control sequences out of 15000+600000
  536111 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
