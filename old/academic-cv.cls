@@ -78,6 +78,8 @@
 }
 % Needed for hanging indents
 \usepackage{hanging}
+
+\usepackage{graphicx}
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------

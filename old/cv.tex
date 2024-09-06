@@ -35,6 +35,7 @@
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
+\photo[circle,edge]{foto.pdf}
 \name{Viktor Martinovi{\'c}, BA MA}{}
 \position{PhD Student{\enskip\cdotp\enskip} Computational Evolutionary Linguistics}
 \address{Nationality: Austrian, Date of Birth: 2 April 1995, Place of Birth: Vienna}
@@ -50,10 +51,15 @@
 % \skype{skype-id}
 % \reddit{reddit-id}
 % \extrainfo{}
+\usepackage{pdfpages}
+\usepackage{fontspec}
 
+
+\usepackage{eso-pic}
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+\hspace*{55mm}\makebox[\paperwidth][c]{#1}\hspace*{-3mm} }}
 %-------------------------------------------------------------------------------
 \begin{document}
-
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
@@ -71,13 +77,14 @@
 %	Each section is imported separately, open each file in turn to modify content
 %   Comment out any sections that are not appropriate for your CV
 %-------------------------------------------------------------------------------
-\input{cv/education.tex}
+
 \input{cv/employment.tex}
+\input{cv/education.tex}
 %\input{cv/software.tex}
 \pagebreak \input{cv/skills.tex}
 \input{cv/funding.tex}
 \input{cv/conforga.tex}
-\input{cv/publications.tex}
+%\input{cv/publications.tex}
 \input{cv/software.tex}
 %\input{cv/presentation.tex}
 %\input{cv/references.tex}
