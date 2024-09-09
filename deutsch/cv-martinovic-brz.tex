@@ -1,0 +1,112 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{graphicx}  % for photo!
+ 
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo{profile.jpg}
+\name{Viktor}{Martinović, MA}
+\position{Computerlinguist | Datenanalyst | Internationale Beziehungen | Doktorand}
+\address{Karmeliterhofgasse 7-9/3/10, 1150 Wien, Österreich}
+
+\mobile{+43 681 20321322}
+\email{vik.martinovic@gmail.com}
+\dateofbirth{2. April 1995}
+%\homepage{www.posquit0.com}
+\github{martino-vic}
+\linkedin{martino-vic}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{medium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{-oJetPMAAAAJ&hl=de&oi=ao}{scholar}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``Motivierter und technisch versierter PhD-Kandidat mit Hintergrund in Computerlinguistik, Datenmanagement und Softwareentwicklung, der sein Fachwissen am Bundesrechenzentrum Österreich einbringen möchte. Erfahrung in der Implementierung und Optimierung datengesteuerter Lösungen, mit Kenntnissen in Python, SQL und Cloud-basierten Technologien. Versiert in Prozessautomatisierung, Datenverwaltung und der Arbeit in funktionsübergreifenden Teams. Ich möchte meine analytischen und Programmierkenntnisse in einem dynamischen Umfeld einsetzen, das die digitale Transformation öffentlicher Dienste unterstützt. Engagiert in kontinuierlichem Lernen und der Mitarbeit an innovativen IT-Lösungen für den öffentlichen Sektor. Fließend in Deutsch und Englisch."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Viktor Martinović~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{cv/employment.tex}
+\input{cv/education.tex}
+%\input{cv/software.tex}
+%\pagebreak
+\input{cv/skills.tex}
+%\input{cv/funding.tex}
+%\input{cv/conforga.tex}
+%\input{cv/publications.tex}
+%\input{cv/software.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
