@@ -749,7 +749,21 @@
   \vspace{-4.0mm}
 }
 
-
+% Define an environment for cvpub
+\newenvironment{cvpubs}{
+  \begin{center}
+}{
+  \end{center}
+}
+% Define an entry of cv information
+% Usage: \cvpub{<description>}
+\newcommand*{\cvpub}[1]{
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{17.0cm} }
+    \descriptionstyle{#1} \\
+  \end{tabular*}
+}
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
 %-------------------------------------------------------------------------------
