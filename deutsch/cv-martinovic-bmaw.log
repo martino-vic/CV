@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.8.23)  12 SEP 2024 14:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.8.23)  12 SEP 2024 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv-martinovic-bmbwf.tex
-(./cv-martinovic-bmbwf.tex
+**cv-martinovic-bmaw.tex
+(./cv-martinovic-bmaw.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1128,8 +1128,8 @@ Requested font "[SourceSansPro-Regular.otf]/OT:script=latn;language=dflt;+pnum;
 mapping=tex-text;" at 10.95pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSans
 Pro-Regular.otf
-))) (./cv-martinovic-bmbwf.aux)
-\openout1 = `cv-martinovic-bmbwf.aux'.
+))) (./cv-martinovic-bmaw.aux)
+\openout1 = `cv-martinovic-bmaw.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
@@ -1662,7 +1662,7 @@ t 6.99925pt
 ) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
- (./cv-martinovic-bmbwf.aux)
+ (./cv-martinovic-bmaw.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
 
@@ -1672,11 +1672,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  33564 strings out of 479819
- 657679 string characters out of 5895846
- 1093742 words of memory out of 5000000
+ 657669 string characters out of 5895846
+ 1093601 words of memory out of 5000000
  50038 multiletter control sequences out of 15000+600000
  537397 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,12n,109p,905b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,109p,844b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv-martinovic-bmbwf.pdf (3 pages).
+Output written on cv-martinovic-bmaw.pdf (3 pages).
